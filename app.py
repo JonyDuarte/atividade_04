@@ -25,10 +25,11 @@ while True:
             continue
     # verifica a idade do usuário e a classificação do filme
     if idade >= idade_minima:
-        print(f"Entrada de {nome} autorizada. Bom filme")
+        print(f"Entrada de {nome} autorizada. Bom filme!")
         break
     else:
         print(f"Entrada de {nome} não autorizada.")
         print(f"Favor escolher outro filme.")
-        continue
+        continue 
+
               
